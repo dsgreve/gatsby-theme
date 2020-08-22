@@ -1,5 +1,7 @@
 import React from "react"
-
-export default function Header(props) {
-  return <h1 class="text-4xl text-white">{props.headerText}</h1>
+import { Link } from "gatsby"
+export default function Header() {
+  return (
+    <header><nav><Link to="/about/">About</Link></nav></header>
+  )
 }

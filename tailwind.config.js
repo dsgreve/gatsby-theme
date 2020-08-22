@@ -1,13 +1,7 @@
-require("typeface-nunito-sans");
-
 module.exports = {
   purge: [],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ["Nunito Sans", ...defaultTheme.fontFamily.sans]
-      }
-    },
+    extend: {},
   },
   variants: {},
   plugins: [],
