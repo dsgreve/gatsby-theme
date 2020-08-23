@@ -1,7 +1,9 @@
 module.exports = {
   purge: [],
   theme: {
-    extend: {},
+    fontFamily: {
+      'nunito': ["nunito sans", "sans-serif"]
+    }
   },
   variants: {},
   plugins: [],
